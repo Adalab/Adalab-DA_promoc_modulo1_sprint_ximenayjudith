@@ -12,6 +12,7 @@ Mod1_lecc4 Ejercicios diccionarios
 
 Mod1_lecc5 Ejercicios Tuplas y sets
 
+Mod1_lecc6 Ejercicios Sentencias de control
 
 
 SQL 
