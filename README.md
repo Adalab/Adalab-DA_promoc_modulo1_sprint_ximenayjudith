@@ -26,9 +26,9 @@ Mod1_lecc3 Ejercicios Alteración de tablas
 
 Mod1_lecc4 Ejercicios insertar datos en tablas
 
-Mod1_lecc4 Ejercicios Querys basicas 1
+Mod1_lecc5 Ejercicios Querys basicas 1
 
-Mod1_lecc5 Ejercicios Querys basicas 2
+Mod1_lecc6 Ejercicios Querys basicas 2
 
-Mod1_lecc6 Ejercicios Querys avanzadas 1
+Mod1_lecc7 Ejercicios Querys avanzadas 1
 
