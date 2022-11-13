@@ -1,3 +1,14 @@
+/* EJERCICIOS LECCION 2 - CREATE TABLE*/
+
+/*EJERCICIO 1
+Antes de nada para poder empezar este ejercicio deberemos crear la base de datos, para ello deberemos escribir:*/
+
+ CREATE SCHEMA tienda_zapatillas;
+ USE tienda_zapatillas;
+
+/*EJERCICIO 2
+Tabla Zapatillas: tiene 3 columnas: id_zapatilla, modelo, color con las siguientes características:*/
+
 CREATE TABLE Zapatillas (
 id_zapatilla INT AUTO_INCREMENT NOT NULL,
 modelo VARCHAR (45) NOT NULL ,
@@ -6,6 +17,9 @@ color VARCHAR (45) NOT NULL,
 PRIMARY KEY (id_zapatilla)
 );
 
+/*EJERCICIO 3
+Tabla Clientes: tiene 9 columnas id_cliente, nombre, numero_telefono, email, direccion, ciudad,
+provincia, pais, codigo_postal con las siguientes características:*/
 
 CREATE TABLE Clientes (
 id_cliente INT AUTO_INCREMENT NOT NULL,
@@ -21,6 +35,9 @@ codigo_postal VARCHAR (45) NOT NULL,
 PRIMARY KEY (id_cliente)
 );
 
+/*EJERCICIO 4
+Tabla Empleados: tiene 5 columnas id_empleado, nombre, tienda, salario, fecha_incorporacion con las siguientes características:*/
+
 CREATE TABLE Empleados (
 id_empleado INT AUTO_INCREMENT NOT NULL,
 nombre VARCHAR (45) NOT NULL ,
@@ -30,6 +47,9 @@ fecha_incorporacion DATE  NOT NULL ,
 
 PRIMARY KEY (id_empleado)
 );
+
+/*EJERCICIO 5
+Tabla Facturas: tiene 6 columnas id_factura ,numero de factura, fecha, id_empleado, id_cliente, id_zapatilla, con las siguientes características:*/
 
 CREATE TABLE Facturas (
       id_factura INT AUTO_INCREMENT NOT NULL,
