@@ -20,7 +20,7 @@ Mod1_lecc7 Ejercicios Bucles for
 
 SQL 
 
-Mod1_lecc1 2 Ejercicios Crear tablas
+Mod1_lecc2 Ejercicios Crear tablas
 
 Mod1_lecc3 Ejercicios Alteración de tablas
 
