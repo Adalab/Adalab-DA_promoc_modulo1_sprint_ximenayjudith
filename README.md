@@ -10,7 +10,7 @@ Mod1_lecc3 Ejercicios listas 2
 
 Mod1_lecc4 Ejercicios diccionarios
 
-Mod1_lecc5 Ejercicios Tuplas y sets
+Mod1_lecc5 Ejercicios Tuplas y Sets
 
 Mod1_lecc6 Ejercicios Sentencias de control
 
@@ -26,9 +26,9 @@ Mod1_lecc3 Ejercicios Alteración de tablas
 
 Mod1_lecc4 Ejercicios insertar datos en tablas
 
-Mod1_lecc5 Ejercicios Querys basicas 1
+Mod1_lecc5 Ejercicios Queries basicas 1
 
-Mod1_lecc6 Ejercicios Querys basicas 2
+Mod1_lecc6 Ejercicios Queries basicas 2
 
-Mod1_lecc7 Ejercicios Querys avanzadas 1
+Mod1_lecc7 Ejercicios Queries avanzadas 1
 
