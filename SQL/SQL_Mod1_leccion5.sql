@@ -27,7 +27,7 @@ WHERE unit_price BETWEEN 18 AND 20;
 /*4El rango de productos que puede dar más beneficios a la empresa podría ser el de aquellos 
 con un precio mayor o igual a 15 dólares, pero menor o igual que 50 dólares. Selecciona los datos de ese rango de productos.*/
 
-SELECT 'unit_price'
+SELECT unit_price
 FROM Northwind.products
 WHERE unit_price >=15 AND unit_price <=50;
 
@@ -36,7 +36,7 @@ Para comprobar si los datos en la tabla products están correctos,
 nos interesa seleccionar aquellos productos que no tengan precio, porque lo hayan dejado vacio al introducir los datos (NULL).*/
 
 
-SELECT 'unit_price'
+SELECT unit_price
 FROM Northwind.products
 WHERE unit_price IS NULL;
 
@@ -44,14 +44,14 @@ WHERE unit_price IS NULL;
 Ahora obtenen los datos de aquellos productos con un precio menor a 15 dólares, pero sólo aquellos que tienen un 
 ID menor que 10 (para tener una muestra significativa pero no tener que ver todos los productos existentes).*/
 
-SELECT 'unit_price'
+SELECT unit_price
 FROM Northwind.products
 WHERE unit_price <15 AND product_id < 10;
 
 /*7Cambiando de operadores:
 Ahora vamos a hacer la misma consulta que en ejercicio anterior, pero haciendo uso del operador NOT.*/
 
-SELECT 'unit_price'
+SELECT unit_price
 FROM Northwind.products
 WHERE NOT unit_price >=15 AND product_id >= 10;
 
